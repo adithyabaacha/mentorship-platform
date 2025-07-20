@@ -1,7 +1,7 @@
 {
   "name": "Java Spring Boot",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "../Dockerfile"
   },
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash"
