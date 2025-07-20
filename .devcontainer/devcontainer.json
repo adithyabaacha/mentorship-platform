@@ -1,0 +1,23 @@
+{
+  "name": "Java Spring Boot Mentorship API",
+  "image": "mcr.microsoft.com/devcontainers/java:21-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/postgresql:1": {
+      "version": "latest",
+      "serverName": "db"
+    },
+    "ghcr.io/devcontainers/features/maven:1": {
+      "version": "3.8.9"
+    }
+  },
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot",
+        "pivotal.vscode-boot-dev-pack"
+      ]
+    }
+  }
+}
